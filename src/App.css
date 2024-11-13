@@ -1,0 +1,88 @@
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #404fed;
+    color: white;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.App {
+    --page-padding: 40px;
+    padding-left: var(--page-padding);
+    padding-right: var(--page-padding);
+}
+    
+header {
+    --header-height: 50px;
+    max-height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+header * {
+    height: var(--header-height);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.text-block {
+    width: 45%;
+}
+
+.buttons-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 20px;
+    width: fit-content;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.background {
+    position: absolute;
+    z-index: -1;
+    bottom: -10%;
+    left: 40%;
+    width: 50%;
+}
